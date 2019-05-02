@@ -25,6 +25,7 @@ config.page_limit = 10;
 ##Execution steps
 - run 'npm install'
 - node server.js
+- execute the sql statement from the file intitialize.txt
 
 ##Create User (POST)
 Create a new user in the table with the parameters that are posted.
@@ -164,6 +165,9 @@ GET /friends/fof/pepper@gmail.com
   "message": "No rows found"
 }
 ```
+
+## POSTMAN Collection for all API's
+- https://www.getpostman.com/collections/a35c1aef5af6f4605c68
 
 ##Thank you.
 Armaan | armaan28@rocketmail.com

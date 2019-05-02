@@ -1,0 +1,18 @@
+CREATE DATABASE codemymobiledemo;
+USE codemymobiledemo;
+
+CREATE TABLE `User` (
+`email` varchar(255) NOT NULL,
+PRIMARY KEY (email),
+`firstName` varchar(255) NOT NULL,
+`lastName` varchar(255) NOT NULL,
+`avatar` text NOT NULL
+);
+
+CREATE TABLE `Friends` (
+`friendsId` int(11) NOT NULL auto_increment,
+PRIMARY KEY (friendsId),
+`userOne` varchar(255) NOT NULL,
+`userTwo` varchar(512) NOT NULL
+);
+
